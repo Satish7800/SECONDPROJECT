@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App" >
         console.warn(data);
+        alert(data)
         <h1>{data}</h1>
         <button class="btn btn-primary sm" onClick={()=>setData("Raj")}>Update</button>
 
