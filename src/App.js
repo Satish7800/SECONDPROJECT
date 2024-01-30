@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 function App() {
   React.useEffect(()=>{
     alert('useEffect');
-  })
+  });
  
   return (
     <div className="App" >
