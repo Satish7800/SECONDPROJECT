@@ -11,7 +11,10 @@ function App() {
  
   return (
     <div className="App" >
-       <h1>UseEffect in React </h1>
+        console.warn(data);
+        <h1>{data}</h1>
+        <button class="btn btn-primary sm" onClick={()=>setData("Raj")}>Update</button>
+
     </div>
   );
 }
